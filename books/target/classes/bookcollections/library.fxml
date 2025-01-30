@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="bookcollections.LibraryController" spacing="10.0" padding="10.0">
+    <children>
+        <Label text="Library Manager" />
+        <ListView fx:id="bookListView" />
+        <HBox spacing="10.0" padding="5.0">
+            <Button text="Remove Selected Book" onAction="#removeSelectedBook" />
+            <Button text="Refresh" onAction="#updateBookList" />
+        </HBox>
+    </children>
+</VBox>
