@@ -25,7 +25,7 @@ public class Book {
         return ISBN;
     }
 
-    // toString method for easy display
+    // toString method
     @Override
     public String toString() {
         return "Book{" +
